@@ -1,0 +1,37 @@
+body {
+    background: url('/01\ -\ JavaScript\ Drum\ Kit/background.jpg');
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.drum {
+    display:flex;
+    justify-content: space-between;
+}
+
+.key {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.315);
+    color:whitesmoke;
+    border: 3px solid black;
+    box-shadow: 2px 4px 5px rgb(255, 140, 0);
+    border-radius: 5px;
+    width:50px;
+}
+
+.key kbd{
+    font-size: 30px;
+}
+
+.key .sound {
+    font-size: 10px;
+    color:rgb(255, 140, 0);
+    letter-spacing: 2px;
+}
