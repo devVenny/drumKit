@@ -21,9 +21,10 @@ body {
     background-color: rgba(0, 0, 0, 0.315);
     color:whitesmoke;
     border: 3px solid black;
-    box-shadow: 2px 4px 5px rgb(255, 140, 0);
+    box-shadow: 1px 3px 2px rgb(255, 140, 0);
     border-radius: 5px;
     width:50px;
+    transition: all .1s ease-in-out;
 }
 
 .key kbd{
@@ -34,4 +35,10 @@ body {
     font-size: 10px;
     color:rgb(255, 140, 0);
     letter-spacing: 2px;
+}
+
+.playing {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.877);
+    box-shadow: 3px 5px 2px rgba(255, 140, 0, 0.705);
 }
